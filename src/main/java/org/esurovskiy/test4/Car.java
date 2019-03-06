@@ -7,7 +7,7 @@ package org.esurovskiy.test4;
  */
 public class Car extends Vehicle {
     void doSomething() {
-
+//
     }
 
     int getCount() {
