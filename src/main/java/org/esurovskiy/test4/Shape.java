@@ -1,6 +1,6 @@
 package org.esurovskiy.test4;
 
-public class Shape {
+public abstract class Shape {
     private String shapeColor;
 
     public Shape(String color) {
@@ -16,8 +16,6 @@ public class Shape {
         return "Shape color is:" + shapeColor;
     }
 
-    public double calcArea() {
-        return 0.0;
-    }
+    public abstract double calcArea();
 
 }
